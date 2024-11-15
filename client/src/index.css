@@ -1,14 +1,65 @@
+/* Basic body styling */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #1c1e29;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font-family for better readability */
+  background: #121212; /* Darker background for a sleeker look */
+  color: #e0e0e0; /* Light grey text for improved contrast */
+  line-height: 1.6; /* Improved line-height for better text spacing */
+  padding: 20px; /* Added padding around the body */
+  box-sizing: border-box; /* Ensures padding does not affect layout */
 }
 
+/* Code block styling */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem; /* Increased font size for better readability */
+  background-color: #2d2d2d; /* Darker background for code */
+  color: #f0f0f0; /* Lighter text color for contrast */
+  padding: 2px 6px; /* Added padding for visual appeal */
+  border-radius: 4px; /* Rounded corners for a softer look */
+}
+
+/* Links styling (example) */
+a {
+  color: #4fa3f7; /* Modern blue color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+/* Global reset for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+h1, h2, h3 {
+  font-family: 'Segoe UI', sans-serif; /* Matching heading font */
+  color: #ffffff; /* White text for headings */
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+  margin-bottom: 20px; /* More space between paragraphs */
+  font-size: 1.1rem; /* Slightly larger text for better readability */
+}
+
+/* Button styling (example) */
+button {
+  background-color: #4fa3f7; /* Blue background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3578e5; /* Slightly darker blue on hover */
 }
